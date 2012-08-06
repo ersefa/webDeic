@@ -1,0 +1,565 @@
+/*
+*****************************************************************************************************************************
+* HOJA DE ESTILO GENERAL DE LA UNIVERSIDAD COMPLUTENSE DE MADRID
+* OFICINA WEB - ÁREA DE INFRAESTRUCTURAS WEB
+* Universidad Complutense de Madrid
+* 
+* Fichero:             home.css
+* Finalidad:           Visualizacion normal 
+* Fecha actualizacion: 10/10/2010
+* 
+*****************************************************************************************************************************
+*/
+
+/*
+*****************************************************************************************************************************
+* ELEMENTOS DE PORTADA
+*****************************************************************************************************************************
+*/
+#col_izq {
+    float: left;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    margin: 0px 170px 0px 0px;
+}
+
+#col_dcha {
+    position: absolute;
+    float: right;
+    top: 0px;
+    right: 0px;
+    width: 170px;
+    height: 100%;
+    margin: 20px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border-left: 1px dotted #CFCFCF;
+}
+
+#home_dest{
+    margin: 0 auto 30px auto;
+    width:596px;
+}
+
+#home_main {
+    position:relative;
+    overflow:hidden;
+    height: 254px;
+    margin: 20px 0px 20px 0px;
+}
+
+/* root element for pages */
+#home_pages {
+    position:absolute;
+    height:20000em;
+}
+
+/* single page */
+.home_page {
+    padding:0px;
+    margin: 0px;
+    height: 254px;
+    width:380px;
+}
+
+/* root element for horizontal scrollables */
+.scrollable {
+    position:relative;
+    padding:0px;
+    margin: 0px;
+    overflow:hidden;
+    width: 380px;
+    height: 254px;
+}
+
+/* root element for scrollable items */
+.scrollable .home_items {
+    width:20000em;
+    position:absolute;
+    clear:both;
+}
+
+/* single scrollable item */
+div.home_item {
+    position:relative;
+    float:left;
+    top: 0px;
+    margin: 0px;
+    padding:0px;
+    width:380px;
+    height:254px;
+    cursor:pointer;
+}
+
+div.home_item img{
+    width:380px;
+    height:254px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+div.home_txt, div.home_txt2{
+    position: relative;
+    top: -47px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    width: 380px;
+    height: 50px;
+    background: #000;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    text-align: left;
+    border: 0px;
+}
+
+div.home_txt2{
+    width: 380px;
+    height: 33px;
+    top: -30px;
+    padding: 2px 0px 2px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+div.home_txt h2{
+    margin: 0px;
+    padding: 4px 0px 0px 4px;
+    font-weight: normal;
+    color: #FFFFFF;
+    font-size: 1em;
+    display: block;
+}
+
+div.home_txt h3{
+    font-size: 0.8em;
+    color: #FFFFFF;
+    padding: 0px 0px 0px 4px;
+}
+
+#area_contenido div.home_txt h2 a:link, #area_contenido div.home_txt h2 a:active, #area_contenido div.home_txt h2 a:visited{
+    font-weight: bold;
+    color: #FFFFFF;
+    border: 0px;
+}
+
+#area_contenido div.home_txt h2 a:hover {
+    font-weight: bold;
+    color:#FFFFFF;
+    border-bottom: 1px dotted #FFFFFF;
+}
+
+div.home_item2 {
+    position: relative;
+    margin: 0px 10px 24px 0px;
+    padding:0px;
+}
+
+div.home_item2a {
+    float: left;
+    width: 48%;
+    margin: 0px 10px 20px 0px;
+}
+
+div.home_item2b {
+    float: right;
+    width: 48%;
+    margin: 0px 10px 20px 0px;
+}
+
+div.home_img, div.home_img2{
+    position: relative;
+    text-align: left;
+    padding: 0px;
+}
+
+div.home_img{
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+div.home_img2{
+    float: right;
+    margin: 0px 0px 0px 10px;
+}
+
+div.home_img img, div.home_img2 img{
+    height: 75px;
+    margin: 0px 0px 0px 0px;
+    border: 1px solid #EAEBEA;
+    padding: 4px 4px 4px 4px;
+    background-color: #F8F9F8;
+}
+
+div.home_item2 h2{
+    margin: 0px;
+    padding: 4px 0px 0px 4px;
+    font-weight: normal;
+    font-size: 1em;
+    display: block;
+}
+
+div.home_item2 h3{
+    font-size: 0.85em;
+    color: #5D5855;
+    padding: 0px 0px 0px 4px;
+    display: block;
+    margin: 0px;
+}
+
+#area_contenido div.home_item2 h2 a:link, #area_contenido div.home_item2 h2 a:active, #area_contenido div.home_item2 h2 a:visited{
+    font-weight: bold;
+    color: #B30A26;
+    border: 0px;
+}
+
+#area_contenido div.home_item2 h2 a:hover {
+    font-weight: bold;
+    color: #B30A26;
+    border-bottom: 1px dotted #B30A26;
+}
+
+
+/* main navigator */
+#home_main_navi {
+    float:right;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 9px 0px 0px;
+}
+
+#home_main_navi li {
+    border-top:1px solid #F8F9F8;
+    border-right:1px solid #F8F9F8;
+    clear:both;
+    color:#000000;
+    font-size: 0.8em;
+    height:75px;
+    list-style-type:none;
+    padding: 4px 0px 0px 10px;
+    width:195px;
+    cursor:pointer;
+}
+
+#home_main_navi li:hover {
+    background-color:#F8F9F8;
+}
+
+#home_main_navi li.active {
+    background-color:#EAEBEA;
+}
+
+#home_main_navi img {
+    float:left;
+    margin-right:10px;
+    width: 75px;
+    height: 50px;
+}
+
+#home_main_navi strong {
+    display:block;
+}
+
+#home_main div.home_navi {
+    margin-left:250px;
+    cursor:pointer;
+}
+
+#home_tit{
+    margin-top: 20px;   
+}
+/*
+*****************************************************************************************************************************
+* NOTICIAS Y TITULARES DE PORTADA
+*****************************************************************************************************************************
+*/
+
+div.hNews{
+    margin: 10px 10px 10px 0px;
+}
+
+div.hNews h2{
+    display: inline-block;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 10px 0px 20px 0px;
+}
+
+div.hNews h3{
+    display: inline-block;
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0px 0px 5px 0px;
+    color: #B30A26;
+}
+
+div.hNews h4{
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: normal;
+    text-align: right;
+    margin: 0px 0px 0px 0px;
+}
+
+div.hNewsTxt{
+    border-top: 1px dotted #BBCFCF;
+    padding-top: 10px;
+    background-color: #FFFFFF;
+}
+
+div.hNewsTxt img.ppal{
+    float: right;
+    width: 380px;
+    margin: 10px 4px 4px 10px;
+    background-color: #F3F8F3;
+    border: 1px solid #BBCFCF;
+    padding: 6px;
+}
+
+div.hNewsEnl{
+    position: relative;
+    width: auto;
+    padding: 6px 8px 2px 8px;
+}
+
+div.hNewsEnl p{
+    border-bottom: 1px solid #F3F8F3;
+    margin: 0px 0px 10px 0px;
+    padding: 3px 10px 1px 4px;
+    font-weight: bold;
+    display: inline-block;
+    color: #800000;
+}
+
+div.hNewsEnl ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px 0px 0px 20px;
+}
+
+div.hNewsEnl ul li{
+    list-style: url('../../../../media/images/dot1.gif') outside;
+    margin: 0px 0px 10px 0px;
+    padding-left: 0px;
+    font-size: 0.9em;
+}
+
+#area_contenido div.hNewsEnl ul li a{
+    color: #5D5855;
+}
+
+#area_contenido div.hNewsEnl ul li a:hover{
+    color: #000000;
+    border-bottom: 1px dotted #5D5855;
+}
+
+div.hNewsPh{
+    position: relative;
+    text-align: left;
+    clear: both;
+    margin-top: 10px;
+}
+
+div.hNewsPh p{
+    border-bottom: 1px solid #F3F8F3;
+    margin: 0px 0px 20px 0px;
+    padding: 3px 10px 1px 10px;
+    font-weight: bold;
+    color: #800000;
+}
+
+div.hNewsPh img{
+    float: left;
+    margin: 0px 10px 14px 0px;
+    background-color: #F3F8F3;
+    border: 1px solid #BBCFCF;
+    padding: 6px;
+}
+
+/*
+*****************************************************************************************************************************
+* ENLACES RÁPIDOS
+*****************************************************************************************************************************
+*/
+#quicklink {
+    padding: 0px;
+    margin-top: 1px;
+}
+
+#quicklink ul {
+    list-style: none;
+    margin: 0px 8px 20px 10px;
+    padding: 0px 0px 0px 0px;
+    border-top: 1px dotted #D9D8D7;
+    font-size: 1em;
+}
+
+#quicklink li {
+    margin: 0px;
+    padding: 4px 0px 4px 5px;
+    border-bottom: 1px dotted #D9D8D7;
+    color: #D9D8D7;
+}
+
+#quicklink li a:link,#quicklink li a:active,#quicklink li a:visited {
+    color: #5D5855;
+    border: 0px;
+}
+
+#quicklink li a:hover {
+    color: #000000;
+    border: 0px;
+}
+
+/*
+*****************************************************************************************************************************
+* AGENDA
+*****************************************************************************************************************************
+*/
+#agendaUCM {
+    font-size: 0.7em;
+    margin-top: 134px;
+    padding: 2px;
+}
+
+/* Interaction states
+----------------------------------*/
+#agendaUCM .ui-state-default,#agendaUCM .ui-widget-content .ui-state-default,#agendaUCM .ui-widget-header .ui-state-default
+    {
+    border: 1px solid #d8dcdf;
+    background: #eeeeee
+        url(../../prog/js/jquery_ui/css/blitzer/images/ui-bg_highlight-hard_100_eeeeee_1x100.png) 50% 50% repeat-x;
+    font-weight: bold;
+    color: #004276;
+}
+
+#agendaUCM .ui-state-default a,#agendaUCM .ui-state-default a:link,#agendaUCM .ui-state-default a:visited
+    {
+    color: #004276;
+    text-decoration: none;
+}
+
+#agendaUCM .ui-state-hover,#agendaUCM .ui-widget-content .ui-state-hover,#agendaUCM .ui-widget-header .ui-state-hover,#agendaUCM .ui-state-focus,#agendaUCM .ui-widget-content .ui-state-focus,#agendaUCM .ui-widget-header .ui-state-focus
+    {
+    border: 1px solid #cdd5da;
+    background: #f6f6f6
+        url(../../prog/js/jquery_ui/css/blitzer/images/ui-bg_highlight-hard_100_f6f6f6_1x100.png) 50% 50% repeat-x;
+    font-weight: bold;
+    color: #111111;
+}
+
+#agendaUCM .ui-state-hover a,#agendaUCM .ui-state-hover a:hover {
+    color: #111111;
+    text-decoration: none;
+}
+
+#agendaUCM .ui-state-active,#agendaUCM .ui-widget-content .ui-state-active,#agendaUCM .ui-widget-header .ui-state-active
+    {
+    border: 1px solid #eeeeee;
+    background: #ffffff url(../../prog/js/jquery_ui/css/blitzer/images/ui-bg_flat_65_ffffff_40x100.png) 50% 50%
+        repeat-x;
+    font-weight: bold;
+    color: #cc0000;
+}
+
+#agendaUCM .ui-state-active a,#agendaUCM  .ui-state-active a:link,#agendaUCM .ui-state-active a:visited
+    {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+#agendaUCM .ui-widget :active {
+    outline: none;
+}
+
+/* Interaction Cues
+----------------------------------*/
+#agendaUCM .ui-state-highlight,#agendaUCM .ui-widget-content .ui-state-highlight,#agendaUCM .ui-widget-header .ui-state-highlight
+    {
+    border: 1px solid #fcd3a1;
+    background: #fbf8ee url(../../prog/js/jquery_ui/css/blitzer/images/ui-bg_glass_55_fbf8ee_1x400.png) 50% 50%
+        repeat-x;
+    color: #444444;
+}
+
+#agendaUCM .ui-state-highlight a,#agendaUCM .ui-widget-content .ui-state-highlight a,#agendaUCM .ui-widget-header .ui-state-highlight a
+    {
+    color: #444444;
+}
+
+#agendaUCM .ui-state-error,#agendaUCM .ui-widget-content .ui-state-error,#agendaUCM .ui-widget-header .ui-state-error
+    {
+    border: 1px solid #cc0000;
+    background: #f3d8d8
+        url(../../prog/js/jquery_ui/css/blitzer/images/ui-bg_diagonals-thick_75_f3d8d8_40x40.png) 50% 50% repeat;
+    color: #2e2e2e;
+}
+
+#agendaUCM .ui-state-error a,#agendaUCM .ui-widget-content .ui-state-error a,#agendaUCM .ui-widget-header .ui-state-error a
+    {
+    color: #2e2e2e;
+}
+
+#agendaUCM .ui-state-error-text,#agendaUCM .ui-widget-content .ui-state-error-text,#agendaUCM .ui-widget-header .ui-state-error-text
+    {
+    color: #2e2e2e;
+}
+
+#agendaUCM .ui-priority-primary,#agendaUCM .ui-widget-content .ui-priority-primary,#agendaUCM .ui-widget-header .ui-priority-primary
+    {
+    font-weight: bold;
+}
+
+#agendaUCM .ui-priority-secondary,#agendaUCM .ui-widget-content .ui-priority-secondary,#agendaUCM .ui-widget-header .ui-priority-secondary
+    {
+    opacity: .7;
+    filter: Alpha(Opacity = 70);
+    font-weight: normal;
+}
+
+#agendaUCM .ui-state-disabled,#agendaUCM .ui-widget-content .ui-state-disabled,#agendaUCM .ui-widget-header .ui-state-disabled
+    {
+    opacity: .35;
+    filter: Alpha(Opacity = 35);
+    background-image: none;
+}
+
+#agendaUCM .ui-datepicker {
+    width: 160px;
+}
+
+/*
+*****************************************************************************************************************************
+* UNIVERSIA Y REDES SOCIALES
+*****************************************************************************************************************************
+*/
+#col_pub{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin: 0;
+    padding:0px;
+}
+
+#redsocial {
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+}
+#redsocial ul {
+    list-style: none;
+    margin: 0 auto;
+    width: 130px;
+    padding: 0;
+}
+#redsocial ul li {
+    float: left;
+    padding:4px;
+}
+#redsocial a:link, #redsocial a:active, #redsocial a:visited, #redsocial a:hover {
+    text-decoration: none;
+    border-bottom: 0 none;
+}
+#redsocial img.socialicon{
+    height:24px;
+    width:24px;
+}

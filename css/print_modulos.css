@@ -1,0 +1,436 @@
+/*
+*****************************************************************************************************************************
+* HOJA DE ESTILO GENERAL DE LA UNIVERSIDAD COMPLUTENSE DE MADRID
+* OFICINA WEB - ÁREA DE INFRAESTRUCTURAS WEB
+* Universidad Complutense de Madrid
+* 
+* Fichero:             print_modulos.css
+* Finalidad:           Impresión de la página 
+* Fecha actualizacion: 14/01/2011
+* 
+*****************************************************************************************************************************
+*/
+
+/*
+*****************************************************************************************************************************
+* ELEMENTOS DE LAS PÁGINAS DE MÓDULOS
+*****************************************************************************************************************************
+*/
+#paratitulo {
+	margin: 17px 0px 15px 8px;
+	padding: 0px 2px 0px 2px;
+	border-bottom: 1px dotted #BBCFCF;
+}
+
+#paratitulo h2{
+	margin-bottom: 1px;
+}
+
+/* MODULO: OW */
+div.ow_caja{
+	float: left;
+	width: 208px;
+	height: 278px;
+	padding: 0px;
+	margin: 0px 20px 40px 20px;
+}
+
+div.ow_caja img{
+	width: 200px;
+	margin: 0px;
+	padding: 0px;
+	border: 4px solid #000000;
+}
+
+#area_contenido div.ow_caja a:link, #area_contenido div.ow_caja a:hover{
+	border: 0px;
+}
+
+div.ow_caja a:hover img{
+	border: 4px solid #B30A26;
+}
+
+
+div.ow_txt{
+	position: relative;
+	top: -47px;
+	margin: 0px 0px 0px 4px;
+	padding: 0px;
+	width: 200px;
+	height: 40px;
+	background: #000;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+div.ow_txt p{
+	margin: 0px;
+	padding: 4px 0px 0px 4px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#area_contenido div.ow_txt p a:link,#area_contenido div.ow_txt p a:active,#area_contenido div.ow_txt p a:visited{
+	color: #FFFFFF;
+	border: 0px;
+}
+
+#area_contenido div.ow_txt p a:hover {
+	color:#FFFFFF;
+	border-bottom: 1px dotted #FFFFFF;
+}
+
+
+
+/* MODULO: Imagen Izda/Dcha */
+.mod_fotoizq {
+	position: relative;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+.mod_fotoder {
+	position: relative;
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+/* MODULOS: Común a Bloques, Lista y Jerárquico */
+.BloqueTitulo {
+	font-weight: bold;
+}
+
+.BloqueResumen {
+	font-size: 0.8em;
+	color: #5D5855;
+	font-weight: normal;
+	padding: 0px;
+	margin: 0px;
+	line-height: 0px;
+}
+
+.BloqueTextoDef {
+	position: relative;
+}
+.BloqueTextoDef ul {
+	margin-left: 2em;
+}
+.BloqueTextoDef ul ul {
+	margin-left: 2em;
+}
+.BloqueTextoDef ul li {
+	list-style-image: url('../../media/dots/dot.gif');
+}
+.BloqueTextoDef ul ul li {
+	list-style-image: url('../../media/dots/dot1.gif');
+}
+/* MODULO: Bloques */
+div.bloques {
+	position: relative;
+	float: left;
+	padding: 0px 14px 2px 14px;
+	margin: 0px 0px 26px 10px;
+	width: 44%;
+	background: url('../../media/dots/dot.gif') no-repeat left 4px;
+}
+
+#area_contenido div.bloques a:visited,#area_contenido div.bloques a:active,#area_contenido div.bloques a:link
+	{
+	font-size: 1.0em;
+	font-weight: bold;
+	color: #000000;
+}
+
+#area_contenido div.bloques a:hover {
+	font-size: 1.0em;
+	font-weight: bold;
+	color: #9D0A17;
+	border-bottom: 1px dotted #B30A26;
+}
+
+/* MODULO: Lista */
+div.modlista {
+	padding: 0px;
+	padding-left: 14px;
+	padding-right: 14px;
+	padding-bottom: 14px;
+	background: url('../../media/dots/dot.gif') no-repeat left 4px;
+}
+
+#area_contenido div.modlista a:visited,#area_contenido div.modlista a:active,#area_contenido div.modlista a:link
+	{
+	font-size: 1.0em;
+	font-weight: bold;
+	color: #000000;
+}
+
+#area_contenido div.modlista a:hover {
+	font-size: 1.0em;
+	font-weight: bold;
+	color: #9D0A17;
+	border-bottom: 1px dotted #B30A26;
+}
+
+/* MODULO: Bloques Jerárquicos */
+div.bloquesjer {
+	position: relative;
+	float: left;
+	padding: 0px;
+	padding-left: 14px;
+	padding-right: 14px;
+	padding-bottom: 28px;
+	width: 300px;
+	background: url('../../media/dots/dot.gif') no-repeat left 4px;
+}
+
+div.subbloques {
+	position: relative;
+	padding: 0px;
+	padding-left: 14px;
+	padding-right: 14px;
+	padding-bottom: 4px;
+	width: 250px;
+	background: url('../../media/dots/dot1.gif') no-repeat left 4px;
+}
+
+div.BloquesCol {
+	position: relative;
+	float: left;
+	padding: 0;
+	margin-left: 10px;
+	width: 47%;
+}
+
+span.BloqueSubTitulo {
+	
+}
+
+#area_contenido div.BloquesCol div.bloquesjer a:visited,#area_contenido div.BloquesCol div.bloquesjer a:active,#area_contenido div.BloquesCol div.bloquesjer a:link
+	{
+	font-size: 1.0em;
+	font-weight: bold;
+	color: #000000;
+}
+
+#area_contenido div.BloquesCol div.bloquesjer a:hover {
+	font-size: 1.0em;
+	font-weight: bold;
+	color: #9D0A17;
+	border-bottom: 1px dotted #B30A26;
+}
+
+#area_contenido div.BloquesCol div.subbloques a:visited,#area_contenido div.BloquesCol div.subbloques a:active,#area_contenido div.BloquesCol div.subbloques a:link
+	{
+	border: 0px;
+	font-weight: normal;
+	font-size: 0.9em;
+	color: #000000;
+}
+
+#area_contenido div.BloquesCol div.subbloques a:hover {
+	border: 0px solid #000;
+	font-weight: normal;
+	font-size: 0.9em;
+	color: #9D0A17;
+	border-bottom: 1px dotted #E6E6E6;
+}
+
+/* MODULO: Publicaciones */
+div.mod_publi_portada{
+	position:relative; 
+	float:left; 
+	padding: 0px 14px 28px 14px;
+}
+
+div.mod_publi_titular{
+	height:50px;
+	padding:6px;
+	background-color:#575757;
+	color:#ffffff;
+	font-weight:bold;
+}
+
+div.mod_publi_fotografia{
+	height:210px;
+	padding:4px;
+	text-align:center;
+	border-bottom:1px solid #CFCFCF;
+}
+
+div.mod_publi_fotografia_lat{
+	position:relative;
+	float:left;
+	text-align:center;
+	padding:4px;
+}
+
+div.mod_publi_texto{
+	padding:6px;
+	font-size:0.9em;
+}
+
+div.mod_publi_texto_lat{
+	padding:6px;
+	font-size:0.9em;
+}
+
+div.mod_publi_separador{
+	background-color:#FAFCF9; 
+	margin:0px 10px 6px 10px; 
+	padding:2px;
+	font-weight:bold;
+	border: 1px solid #CFCFCF;
+}
+
+div.mod_publi_otrotit{
+	padding-left:24px;
+}
+
+.mod_publi_foto{
+	width:150px;
+}
+
+#area_contenido div.mod_publi_otrotit a:visited, #area_contenido div.mod_publi_otrotit a:active ,#area_contenido div.mod_publi_otrotit a:link{
+	font-size: 0.9em;
+	color: #000000;
+}
+
+#area_contenido div.mod_publi_otrotit a:hover{
+	font-size: 0.9em;
+	color: #9D0A17;
+	border-bottom: 1px dotted #E6E6E6;
+}
+
+/* MÓDULO: Descargas */
+div.mod_descargas{
+	padding: 0px 14px 8px 14px;
+	margin-left:12px;
+	background: #fff url('../../media/dots/dot.gif') no-repeat 0px 4px;
+}
+
+#area_contenido div.mod_descargas a:visited,#area_contenido div.mod_descargas a:active,#area_contenido div.mod_descargas a:link
+	{
+	font-size: 1.0em;
+	font-weight: bold;
+	color: #000000;
+}
+
+#area_contenido div.mod_descargas a:hover {
+	font-size: 1.0em;
+	font-weight: bold;
+	color: #9D0A17;
+	border-bottom: 1px dotted #B30A26;
+}
+
+div.mod_descargasjer{
+	padding: 0px 14px 2px 14px;
+	margin-left:24px;
+	background: #fff url('../../media/dots/dot1.gif') no-repeat 0px 4px;
+}
+
+
+/* MODULO: Directorio */
+div.mod_dir_separador{
+	font-weight:bold;
+	padding:4px;
+}
+
+div.moddir_1{
+	position:relative;
+	float:left;
+	padding:4px;
+	background-color:#DBE5E4;
+	border:1px solid #CFCFCF;
+	width:250px;
+}
+
+div.moddir_2{
+	position:relative;
+	float:left;
+	padding:4px;
+	border:1px solid #CFCFCF;
+	width:350px;
+}
+
+div.moddir_3{
+	position:relative;
+	float:left;
+	padding:4px;
+	border:1px solid #CFCFCF;
+	width:610px;
+}
+
+#area_contenido div.moddir_3 a:visited, #area_contenido div.moddir_3 a:active ,#area_contenido div.moddir_3 a:link{
+	font-weight: normal;
+	font-size: 0.9em;
+	color: #000000;
+}
+
+#area_contenido div.moddir_3 a:hover{
+	font-weight: normal;
+	font-size: 0.9em;
+	color: #9D0A17;
+	border-bottom: 1px dotted #E6E6E6;
+}
+
+/* MODULO: Catálogo */
+.mod_fotocat{
+	position:relative;
+	float:left;
+	padding: 0px 6px 6px;
+	width:150px;
+}
+
+.mod_fotocat2{
+	position:relative;
+	float:left;
+	padding: 0px 6px 6px;
+	width:50px;
+}
+
+/* TRIBUNA COMPLUTENSE */
+div.modtribuna{
+	padding:0px;
+	text-align:center;
+}
+
+div.modtribuna_1{
+	padding:2px;
+	border-bottom:1px solid #C2D2D0;
+	font-weight:bold;
+	width:80%;
+	background-image: url('../../media/images/fondo_degradado.gif');
+	background-position: 0px 0px;
+	background-repeat: repeat-y;
+}
+
+div.modtribuna_2{
+	padding:2px;
+	padding-left:10px;
+	background-image: url('../../media/dots/dot1.gif');
+	background-position: 0px 6px;
+	background-repeat: no-repeat;
+}
+
+div.modtribuna_3{
+	margin-top:24px;
+	padding:4px;
+	background-color:#E6D9C2;
+	font-weight:bold;
+	text-align:center;
+	width:350px;
+}
+
+div.modtribuna_4{
+	margin-bottom:24px;
+	padding:4px;
+	text-align:center;
+	width:400px;
+	font-size:0.8em;
+}
+
+

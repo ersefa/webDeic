@@ -1,0 +1,374 @@
+/*
+*****************************************************************************************************************************
+* HOJA DE ESTILO GENERAL DE LA UNIVERSIDAD COMPLUTENSE DE MADRID
+* OFICINA WEB - ÁREA DE INFRAESTRUCTURAS WEB
+* Universidad Complutense de Madrid
+* 
+* Fichero:             print.css
+* Finalidad:           Impresión de la página 
+* Fecha actualizacion: 14/01/2011
+* 
+*****************************************************************************************************************************
+*/
+/*
+*****************************************************************************************************************************
+* OPCIONES GENERALES
+*****************************************************************************************************************************
+*/
+/* Cuerpo general */
+body {
+	margin: 0px;
+	padding: 0px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 0.8em;
+	font-family: Verdana, Arial, Helvetica;
+	background-color: #FFFFFF;
+}
+
+h1,h2,h3,h4 {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 1.5em;
+	margin: 2px 0px 2px 0px;
+	color: #800000;
+}
+
+h2 {
+	font-size: 1.4em;
+	display: inline-block;
+	font-weight: bold;
+	margin: 0px 0px 10px 0px;
+	color: #B30A26;
+}
+
+h3 {
+	font-size: 1.1em;
+	display: inline-block;
+	font-weight: normal;
+	margin: 0px 0px 5px 0px;
+	color: #B30A26;
+}
+
+h4 {
+	font-size: 0.9em;
+	font-weight: normal;
+	font-style: italic;
+	margin: 0px;
+	color: #800000;
+}
+
+hr {
+	border: 0px;
+	height: 1px;
+}
+
+img {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	max-width: 750px;
+}
+
+/*  Otras */
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/*
+*****************************************************************************************************************************
+* OPCIONES GENERALES
+*****************************************************************************************************************************
+*/
+#contenedor {
+	position: relative;
+	width: 970px;
+	padding: 0px 10px 0px 10px;
+	margin: 10px auto 0 auto;
+}
+
+#contenedor2 {
+	position: relative;
+	width: 990px;
+	padding: 0px 0px 6px 0px;
+	margin: 0 auto 0 auto;
+}
+
+#area_cabecera {
+	position: relative;
+	height: 90px;
+	margin: 0px 1px 20px 0px;
+	padding: 6px 0px 6px 0px;
+	border-bottom: 2px solid #CFCFCF;
+}
+
+#area_barra {
+	display: none;
+}
+
+#area_ppal {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	margin: 0px 1px 0px 0px;
+	padding: 0px;
+	border-top: 1px solid #fff;
+}
+
+#area_menu {
+	display: none;
+}
+
+#area_contenido {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	height: 100%;
+	font-size: 1.2em;
+}
+
+#area_pie {
+	display: none;
+}
+
+#pieUCM{
+	position: relative;
+	width: 970px;
+	padding: 4px 0px 6px 0px;
+	margin: 60px auto 0 auto;
+	font-size: 0.9em;
+	color: #575757;
+	border-top: 2px solid #CFCFCF;
+}
+
+#pieUCMi{
+	float: left;
+	padding: 0px 0px 0px 4px;
+}
+
+#pieUCMd{
+	display: none;
+}
+
+/*
+*****************************************************************************************************************************
+* ELEMENTOS PRINCIPALES
+*****************************************************************************************************************************
+*/
+#area_logo {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	margin: 7px 0px 0px 20px;
+	padding: 0px 0px 0px 0px;
+	width: 100px;
+}
+
+#area_ucm {
+	top: 0px;
+	padding: 2px;
+	margin: 30px auto 0px auto;
+	width: 485px;
+	font-family: times new roman, helvetica, serif;
+	font-variant:small-caps;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: left;
+}
+
+#area_ucm a:link,#area_ucm a:active,#area_ucm a:visited {
+	border: 0px;
+	color: #707172;
+}
+
+#area_cei{
+	position: absolute;
+	float: right;
+	top: 0px;
+	right: 0px;
+	width: 150px;
+	margin: 27px 12px 0px 0px;
+}
+
+#area_contenido a:link,#area_contenido a:active,#area_contenido a:visited
+	{
+	border-bottom: 1px dotted #E6E6E6;
+	color: #5D5855;
+}
+
+
+
+/*
+*****************************************************************************************************************************
+* ELEMENTOS DEL MAPA DE LA WEB
+*****************************************************************************************************************************
+*/
+div.NivelesTitulo {
+	position: relative;
+	float: left;
+	padding: 2px;
+	border: 1px solid #EFEDED;
+}
+
+div.Niveles {
+	position: relative;
+	float: left;
+	padding: 2px;
+	border: 1px solid #EFEDED;
+}
+
+div.NivelesSelect {
+	position: relative;
+	float: left;
+	padding: 2px;
+	border: 1px solid #EFEDED;
+	color: black;
+	background-color: #EFEDED;
+}
+
+div.mapaarea {
+	position: relative;
+	padding: 2px;
+	margin-top: 6px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+div.maparea2 {
+	position: relative;
+	margin-left: 24px;
+	padding: 2px;
+}
+
+div.maparea3 {
+	position: relative;
+	margin-left: 48px;
+	padding: 2px;
+}
+
+div.maparea4 {
+	position: relative;
+	margin-left: 74px;
+	padding: 2px;
+}
+
+div.maparea5 {
+	position: relative;
+	margin-left: 98px;
+	padding: 2px;
+}
+
+/*
+*****************************************************************************************************************************
+* ELEMENTOS ADICIONALES
+*****************************************************************************************************************************
+*/
+.peque1 {
+	font-family: arial, 'lucida console', sans-serif;
+	font-size: 11px;
+}
+
+.subrayado {
+	text-decoration: underline;
+}
+
+.none {
+	display: none;
+	visibility: hidden;
+	margin: 0px;
+	white-space: nowrap;
+}
+
+.noimprimir {
+	
+}
+
+div.spacer {
+	clear: both;
+}
+
+div.limpiar {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.spacer2 {
+	clear: both;
+	padding: 2px;
+}
+
+/*
+*****************************************************************************************************************************
+* PLANES GRADOS
+*****************************************************************************************************************************
+*/
+div.grados {
+	position: relative;
+}
+
+div.grados table {
+	width: 80%;
+	margin: 0em 0em 0.9em 0em;
+	padding: 0 0 0 0;
+	border: 0px solid #FFF;
+}
+
+div.grados th {
+	color: #252515;
+	background: #f3f8f3;
+	border-bottom: 1px solid #bccecc;
+	border-left: 1px solid #bccecc;
+	border-right: 1px solid #bccecc;
+	border-top: 1px solid #bccecc;
+	margin: 0 0 0 0;
+	padding: 0.4em 0.4em 0.4em 0.4em;
+	text-align: center;
+}
+
+div.grados td {
+	padding: 0em;
+	border-bottom: 1px solid #bccecc;
+	text-align: left;
+	border-left: 1px solid #bccecc;
+	border-right: 1px solid #bccecc;
+	border-top: 1px solid #FFF;
+}
+
+div.grados td p {
+	margin: 1px 1px 1px 4px;
+}
+
+td.grado_td2 {
+	width: 90px;
+	text-align: center;
+	padding: 0em;
+}
+
+td.grado_td2 p {
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+td.grado_td p {
+	padding-left: 1em;
+}

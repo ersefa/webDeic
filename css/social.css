@@ -1,0 +1,122 @@
+/*
+*****************************************************************************************************************************
+* HOJA DE ESTILO COMPONENTE SOCIAL
+*****************************************************************************************************************************
+*/
+
+ul.topul, ul.topul ul {
+	padding:0; 
+	margin:0; 
+	list-style:none; 
+	position:relative;
+}
+
+ul.topul ul  {
+	position:absolute; 
+	left:-9999px; 
+	opacity:0;
+	
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+}
+
+ul.topul {
+	margin: 0px 0px 50px 50px;
+	width:80px; 
+	height:80px;
+}
+
+ul.topul ul li {
+	width:48px; 
+	height:48px; 
+	float:left; 
+	display:inline;
+}
+
+ul.topul li.topli {
+	width:80px; 
+	height:80px; 
+	float:left;
+}
+
+ul.topul :hover ul {
+	left:-48px; 
+	top:-48px; 
+	width:176px; 
+	height:176px; 
+	opacity:1;
+}
+
+ul.topul ul li img {
+	width:48px; 
+	height:48px; 
+	display:block; 
+	border:0; 
+	position:relative; 
+	left:0; 
+	top:0;
+
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
+
+ul.topul li.p1 {
+	margin-left:16px; 
+	margin-top:16px;
+}
+
+ul.topul li.p3 {
+	margin-top:16px;
+}
+
+ul.topul li.p5 {
+	margin-left:80px;
+}
+
+ul.topul li.p6 {
+	margin-left:16px;
+}
+
+ul.topul li.p7 {
+	margin-top:16px;
+}
+
+ul.topul :hover ul li a:hover {
+	position:relative; 
+	z-index:100;
+}
+
+ul.topul li:hover ul li a:hover img {
+	width:64px; 
+	height:64px; 
+	left:-8px; 
+	top:-8px; 
+	z-index:100;
+}
+
+
+/* for IE6 */
+
+ul.topul table {
+	border-collapse:collapse: position:absolute; 
+	left:0; 
+	top:0; 
+	margin:-4px;
+}
+
+ul.topul li a:hover {
+	direction:ltr;
+}
+
+ul.topul li a:hover ul li a:hover img {
+	position:absolute; 
+	width:64px; 
+	height:64px; 
+	left:-8px; 
+	top:-8px; 
+	z-index:100;
+}

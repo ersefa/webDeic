@@ -1,0 +1,249 @@
+/*
+*****************************************************************************************************************************
+* HOJA DE ESTILO GENERAL DE LA UNIVERSIDAD COMPLUTENSE DE MADRID
+* OFICINA WEB - ÁREA DE INFRAESTRUCTURAS WEB
+* Universidad Complutense de Madrid
+* 
+* Fichero:             print_home.css
+* Finalidad:           Impresión de la página 
+* Fecha actualizacion: 14/01/2011
+* 
+*****************************************************************************************************************************
+*/
+
+/*
+*****************************************************************************************************************************
+* ELEMENTOS DE PORTADA
+*****************************************************************************************************************************
+*/
+#col_izq {
+	position: relative;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+#col_dcha {
+	display: none;
+}
+
+#home_dest{
+	margin: 0 auto 30px auto;
+}
+
+#home_main {
+	display: none;
+}
+
+
+div.home_item2 {
+	position: relative;
+	margin: 0px 10px 24px 0px;
+	padding:0px;
+}
+
+div.home_item2a {
+	float: left;
+	width: 48%;
+	margin: 0px 10px 20px 0px;
+}
+
+div.home_item2b {
+	float: right;
+	width: 48%;
+	margin: 0px 10px 20px 0px;
+}
+
+div.home_img, div.home_img2{
+	position: relative;
+	text-align: left;
+	padding: 0px;
+}
+
+div.home_img{
+	float: left;
+	margin: 0px 10px 0px 0px;
+}
+
+div.home_img2{
+	float: right;
+	margin: 0px 0px 0px 10px;
+}
+
+div.home_img img, div.home_img2 img{
+	height: 75px;
+	margin: 0px 0px 0px 0px;
+	border: 1px solid #EAEBEA;
+	padding: 4px 4px 4px 4px;
+	background-color: #F8F9F8;
+}
+
+div.home_item2 h2{
+	margin: 0px;
+	padding: 4px 0px 0px 4px;
+	font-weight: normal;
+	font-size: 1.1em;
+	display: block;
+}
+
+div.home_item2 h3{
+	font-size: 1em;
+	color: #5D5855;
+	padding: 0px 0px 0px 4px;
+	display: block;
+	margin: 0px;
+}
+
+#area_contenido div.home_item2 h2 a:link, #area_contenido div.home_item2 h2 a:active, #area_contenido div.home_item2 h2 a:visited{
+	font-weight: bold;
+	color: #B30A26;
+	border: 0px;
+}
+
+
+/* main navigator */
+#home_main_navi {
+	position: relative;
+	padding: 0px 0px 0px 0px;
+	margin: 0px auto 0px auto;
+	width: 550px;
+	border: 2px solid #CFCFCF;
+}
+
+#home_main_navi li {
+	clear: both;
+	color:#000000;
+	font-size: 1.1em;
+	height:75px;
+	list-style-type:none;
+	padding: 4px 0px 0px 10px;
+}
+
+#home_main_navi img {
+	float:left;
+	margin-right:10px;
+	width: 100px;
+}
+
+#home_main_navi strong {
+	display:block;
+}
+
+#home_main div.home_navi {
+	margin-left:250px;
+	cursor:pointer;
+}
+
+/*
+*****************************************************************************************************************************
+* NOTICIAS Y TITULARES DE PORTADA
+*****************************************************************************************************************************
+*/
+
+div.hNews{
+	margin: 10px 10px 10px 0px;
+}
+
+div.hNews h2{
+	display: inline-block;
+	font-size: 1.3em;
+	font-weight: bold;
+	margin: 10px 0px 20px 0px;
+}
+
+div.hNews h3{
+	display: inline-block;
+	font-size: 1.1em;
+	font-weight: normal;
+	margin: 0px 0px 5px 0px;
+	color: #B30A26;
+}
+
+div.hNews h4{
+	font-size: 0.8em;
+	font-style: italic;
+	font-weight: normal;
+	text-align: right;
+	margin: 0px 0px 0px 0px;
+}
+
+div.hNewsTxt{
+	border-top: 1px dotted #BBCFCF;
+	padding-top: 10px;
+	background-color: #FFFFFF;
+	font-size: 1em;
+}
+
+div.hNewsTxt img.ppal{
+	float: right;
+	width: 380px;
+	margin: 10px 4px 4px 10px;
+	background-color: #F3F8F3;
+	border: 1px solid #BBCFCF;
+	padding: 6px;
+}
+
+div.hNewsEnl{
+	position: relative;
+	width: auto;
+	padding: 6px 8px 2px 8px;
+	font-size: 1em;
+}
+
+div.hNewsEnl p{
+	border-bottom: 1px solid #F3F8F3;
+	margin: 0px 0px 10px 0px;
+	padding: 3px 10px 1px 4px;
+	font-weight: bold;
+	display: inline-block;
+	color: #800000;
+	font-size: 0.9em;
+}
+
+div.hNewsEnl ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px 0px 0px 20px;
+}
+
+div.hNewsEnl ul li{
+	list-style: url('../../../../media/images/dot1.gif') outside;
+	margin: 0px 0px 10px 0px;
+	padding-left: 0px;
+}
+
+#area_contenido div.hNewsEnl ul li a{
+	color: #5D5855;
+}
+
+#area_contenido div.hNewsEnl ul li a:hover{
+	color: #000000;
+	border-bottom: 1px dotted #5D5855;
+}
+
+div.hNewsPh{
+	position: relative;
+	text-align: left;
+	clear: both;
+	margin-top: 10px;
+	font-size: 1em;
+}
+
+div.hNewsPh p{
+	border-bottom: 1px solid #F3F8F3;
+	margin: 0px 0px 20px 0px;
+	padding: 3px 10px 1px 10px;
+	font-weight: bold;
+	color: #800000;
+	font-size: 0.9em;
+}
+
+div.hNewsPh img{
+	float: left;
+	margin: 0px 10px 14px 0px;
+	background-color: #F3F8F3;
+	border: 1px solid #BBCFCF;
+	padding: 6px;
+}
