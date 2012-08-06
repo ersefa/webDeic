@@ -35,6 +35,12 @@
     margin: 20px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     border-left: 1px dotted #CFCFCF;
+
+}
+
+#col_dcha #quicklink {
+	pointer-events: none;
+    cursor: default;
 }
 
 #home_dest{

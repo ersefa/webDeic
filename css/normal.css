@@ -217,6 +217,8 @@ a:hover {
 #area_ucm a:link,#area_ucm a:active,#area_ucm a:visited {
 	border: 0px;
 	color: #000000;
+	pointer-events: none;
+    cursor: default;
 }
 
 #area_ucm a:hover {
@@ -258,12 +260,16 @@ a:hover {
 #pieDer{
 	float: right;
 	margin: 4px 4px 8px 0px;
+	/* hide */
+	visibility: hidden;
 }
 
 #pieIzq{
 	float: left;
 	margin: 4px 0px 8px 0px;
 	text-align: left;
+	/* hide */
+	visibility: hidden;
 }
 
 #pieDer ul, #pieIzq ul {
@@ -315,6 +321,8 @@ a:hover {
 	padding: 0px;
 	width: 498px;
 	height: 18px;
+	/* hide */
+	display: none;
 }
 
 #menu_barra ul {
